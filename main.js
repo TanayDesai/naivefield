@@ -52,7 +52,7 @@ function mouseClicked(){
 	}
 
 }
-function touches(){
+function mousePressed(){
 	if(state == "Closed"){
 		state = "Open"
 		Transform(state)
