@@ -52,14 +52,14 @@ function mouseClicked(){
 	}
 
 }
-function mousePressed(){
-	if(state == "Closed"){
-		state = "Open"
-		Transform(state)
-	}
-	else if(state == "Open"){
-		state = "Closed"
-		speechRecognition.stop();
-	}
+// function mousePressed(){
+// 	if(state == "Closed"){
+// 		state = "Open"
+// 		Transform(state)
+// 	}
+// 	else if(state == "Open"){
+// 		state = "Closed"
+// 		speechRecognition.stop();
+// 	}
 
-}
+// }
