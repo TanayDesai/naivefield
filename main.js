@@ -53,7 +53,7 @@ function draw(){
 
 // }
 
-function mouseIsPressed(){
+function mousePressed(){
 	if(state == "Closed"){
 		state = "Open"
 		Transform(state)
