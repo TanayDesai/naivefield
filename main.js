@@ -52,7 +52,7 @@ function mouseClicked(){
 	}
 
 }
-function touchStarted(){
+function mousePressed(){
 	if(state == "Closed"){
 		state = "Open"
 		Transform(state)
