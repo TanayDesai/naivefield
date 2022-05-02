@@ -1,5 +1,8 @@
 # Generative-Art-with-Voice-Command
-Naive Field is a generative flow field using P5.js and can be used with use commands to change the direction.
+Naive Field is a generative flow field and can be used with voice commands to change the flow direction and witness some cool living art ✨
+
+# Words
+Tanay,Love,okay,tesla,yay,lol,you and fuck can be used for the magic to happen.
 
 # Dependencies 
 * Javascript 
@@ -7,7 +10,7 @@ Naive Field is a generative flow field using P5.js and can be used with use comm
 * Web SpeechRecognition
 
 # Author
-Tanay Desai
-Twitter: @tanaydesaii[https://twitter.com/tanaydesaii]
+* Tanay Desai
+* Twitter: @tanaydesaii[https://twitter.com/tanaydesaii]
 
 
