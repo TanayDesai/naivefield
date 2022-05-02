@@ -52,3 +52,14 @@ function mouseClicked(){
 	}
 
 }
+function touches(){
+	if(state == "Closed"){
+		state = "Open"
+		Transform(state)
+	}
+	else if(state == "Open"){
+		state = "Closed"
+		speechRecognition.stop();
+	}
+
+}
