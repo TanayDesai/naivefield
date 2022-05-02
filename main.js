@@ -41,18 +41,7 @@ function draw(){
 	}
 }
 
-function mouseClicked(){
-	if(state == "Closed"){
-		state = "Open"
-		Transform(state)
-	}
-	else if(state == "Open"){
-		state = "Closed"
-		speechRecognition.stop();
-	}
-
-}
-// function mousePressed(){
+// function mouseClicked(){
 // 	if(state == "Closed"){
 // 		state = "Open"
 // 		Transform(state)
@@ -63,3 +52,15 @@ function mouseClicked(){
 // 	}
 
 // }
+
+function mouseIsPressed(){
+	if(state == "Closed"){
+		state = "Open"
+		Transform(state)
+	}
+	else if(state == "Open"){
+		state = "Closed"
+		speechRecognition.stop();
+	}
+
+}
