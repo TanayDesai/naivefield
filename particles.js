@@ -28,7 +28,7 @@ function Particle(x,y) {
     }
 
     this.limit = function() {
-        if (dist(windowWidth / 2,windowHeight / 2, this.px,this.py) < (200)) {
+        if (dist(windowWidth / 2,windowHeight / 2, this.px,this.py) < (300)) {
             this.show()
         }
     }
