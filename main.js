@@ -1,7 +1,9 @@
 
 var particles = [];
 var indicator = [];
-const num = 600;
+let ram = navigator.deviceMemory
+
+const num = 2000 / (ram * 0.2);
 let posx,posy;
 let state;
 
@@ -23,6 +25,9 @@ function setup() {
 	
 	// Speech State
 	state = "Closed"
+
+	setTimeout(magic,3000);
+	
 }
 
 function draw(){
@@ -30,7 +35,7 @@ function draw(){
 
 	// Displaying Particle
 	for (let t=0;t<particles.length;t++){
-		//particles[t].show()
+		// particles[t].show()
 	    particles[t].limit()
 		particles[t].movement()
 		particles[t].isOffScreen()
@@ -52,6 +57,13 @@ function draw(){
 // 	}
 
 // }
+
+function magic(){
+	noiseSeed(millis() * 100)
+	setTimeout(magic,random(1000,3500))
+
+}
+
 
 function mousePressed(){
 	if(state == "Closed"){
