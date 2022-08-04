@@ -3,7 +3,7 @@ var particles = [];
 var indicator = [];
 let ram = navigator.deviceMemory
 
-const num = 2000 / (ram * 0.2);
+const num = 1000 
 let posx,posy;
 let state;
 
