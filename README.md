@@ -1,4 +1,4 @@
-# Generative-Art-with-Voice-Command
+# Generative Art with voice commands
 Naive Field is a generative flow field and can be used with voice commands to change the flow direction and witness some cool living art ✨
 
 # Link 
