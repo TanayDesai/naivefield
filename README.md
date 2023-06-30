@@ -2,10 +2,9 @@
 Naive Field is a generative flow field and can be used with voice commands to change the flow direction and witness some cool living art ✨
 
 # Link 
-Try it out: Naive Field [https://naivefield.netlify.app/]
+Tap on the screen to enable voice recognition (red indicator turns green) and say anything!
 
-# Words
-Tanay,Love,okay,tesla,yay,lol,you and fuck can be used for the magic to happen.
+Try it out: [https://naivefield.netlify.app/]
 
 # Dependencies 
 * Javascript 
